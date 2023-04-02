@@ -1,7 +1,7 @@
 import PyPDF2
 
-pdf1= open('output1.pdf', 'rb')
-pdf2= open('output2.pdf', 'rb')
+pdf1= open('pdfs/output1.pdf', 'rb')
+pdf2= open('pdfs/output2.pdf', 'rb')
 
 file1 = PyPDF2.PdfReader(pdf1)
 file2 = PyPDF2.PdfReader(pdf2)
